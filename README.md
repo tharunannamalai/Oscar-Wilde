@@ -1,0 +1,2 @@
+# Oscar-Wilde
+static website
