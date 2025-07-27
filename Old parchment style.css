@@ -1,0 +1,42 @@
+/* Old parchment style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Garamond', 'Georgia', serif;
+  background: url('https://i.imgur.com/oYQAlEh.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #3b2f1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.parchment {
+  background: rgba(255, 255, 240, 0.85);
+  border: 2px solid #8b6f47;
+  padding: 60px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: 'Cinzel Decorative', cursive;
+  text-transform: uppercase;
+}
+
+.quote {
+  font-size: 24px;
+  line-height: 2;
+  font-style: italic;
+}
+
+.author {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Cinzel Decorative', serif;
+}
